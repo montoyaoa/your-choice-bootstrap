@@ -40,3 +40,49 @@ hr {
   color: #004795;
   text-decoration: none;
 }
+
+.hub-background {
+  background-image: linear-gradient(#0071bb, #112e51);
+  min-height: 900px;
+}
+
+.homepage-heading {
+ color: white;
+}
+
+.hub-container {
+  background-color: white;
+  height: 266px;
+  width: 435px;
+}
+
+.left-hub-container {
+  margin-right: 5px;
+}
+
+.right-hub-container {
+  margin-left: 5px;
+}
+
+.hub-link {
+  color: #004795;
+  line-height: 30px;
+}
+
+h1 {
+  font-family: Bitter;
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 70px;
+}
+
+h2 {
+  font-family: Bitter;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.hub-icon {
+  margin-right: 10px ;
+}
