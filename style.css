@@ -20,8 +20,23 @@ hr {
   color: white;
   opacity: 1;
 
-  margin-bottom: 8px;
-  margin-inline-start: 5%;
-  margin-inline-end: 5%;
+  max-width: 1008px;
 
+  margin-bottom: 8px;
+}
+
+.about-va-link {
+  color: #5247a3;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+.about-va-link:hover {
+  line-height: 30px;
+  text-decoration: underline;
+}
+
+.afr-link {
+  color: #004795;
+  text-decoration: none;
 }

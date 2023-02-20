@@ -14,7 +14,7 @@
   <!-- US Government website accordion -->
   <div class="accordion accordion-flush">
     <div class="accordion-item border-0">
-      <div class="container">
+      <div class="container" style="max-width: 1000px">
         <p id="gov-header" class="mb-0"> <img src="tiny-usa-flag.png" alt="U.S. Flag" height="20px" width="20px" class="me-1">An official website of the United States Government
           <a class="ms-1" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Here's how you know</a>
         </p>
@@ -55,7 +55,7 @@
   <!-- Paired navs -->
   <div id="paired-navbars">
     <div class="nav">
-      <div class="container mt-4">
+      <div class="container mt-4" style="max-width: 1000px">
         <div class="row">
           <div class="col">
             <a href="https://www.va.gov" class="navbar-brand"><img src="header-logo.png" width="264"></a>
@@ -91,41 +91,83 @@
       </div>
     </div>
 
-    <div class="container-fluid">
-      <hr>
+    <div class="container">
+      <hr class="mx-auto">
     </div>
 
     <div class="nav pb-1">
-      <div class="container">
+      <div class="container" style="max-width: 1000px">
         <div class="row">
           <div class="col">
             <ul class="nav">
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">VA Benefits and Health Care</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Separated link</a></li>
+                <a class="nav-link dropdown-toggle ps-0" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false" data-bs-offset="0, 4">VA Benefits and Health Care</a>
+                <ul class="dropdown-menu border-0">
+                  <li><a class="about-va-link" href="#">Health care</a></li>
+                  <li><a class="about-va-link" href="#">Disabilty</a></li>
+                  <li><a class="about-va-link" href="#">Education and training</a></li>
+                  <li><a class="about-va-link" href="#">Careers and employment</a></li>
+                  <li><a class="about-va-link" href="#">Pension</a></li>
+                  <li><a class="about-va-link" href="#">Housing assistance</a></li>
+                  <li><a class="about-va-link" href="#">Life insurance</a></li>
+                  <li><a class="about-va-link" href="#">Burials and memorials</a></li>
+                  <li><a class="about-va-link" href="#">Records</a></li>
+                  <li><a class="about-va-link" href="#">Service member benefits</a></li>
+                  <li><a class="about-va-link" href="#">Family member benefits</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">About VA</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Separated link</a></li>
-                </ul>
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false" data-bs-offset="-250, 4">About VA</a>
+                <div class="dropdown-menu p-4 border-0" style="width: 1000px" >
+                  <div class="container">
+                    <div class="row">
+                      <div class="col p-1">
+                        <p><strong>VA organizations</strong></p>
+                        <a href="#" class="about-va-link">Veterans Health Administration</a><br>
+                        <a href="#" class="about-va-link">Veterans Benefits Administration</a><br>
+                        <a href="#" class="about-va-link">National Cemetery Administration</a><br>
+                        <a href="#" class="about-va-link">VA Leadership</a><br>
+                        <a href="#" class="about-va-link">Public Affairs</a><br>
+                        <a href="#" class="about-va-link">Congressional Affairs</a><br>
+                        <a href="#" class="about-va-link">All VA offices and organizations</a><br>
+                      </div>
+                      <div class="col p-1">
+                        <p><strong>Innovation at VA</strong></p>
+                        <a href="#" class="about-va-link">Health research</a><br>
+                        <a href="#" class="about-va-link">Public health</a><br>
+                        <a href="#" class="about-va-link">VA open data</a><br>
+                        <a href="#" class="about-va-link">Veterans analysis and statistics</a><br>
+                        <a href="#" class="about-va-link">Appeals modernization</a><br>
+                        <a href="#" class="about-va-link">VA Innovation Center</a><br>
+                        <a href="#" class="about-va-link">Recovery Act</a><br>
+                      </div>
+                      <div class="col p-1">
+                        <p><strong>Learn about VA</strong></p>
+                        <a href="#" class="about-va-link">About VA</a><br>
+                        <a href="#" class="about-va-link">History of VA</a><br>
+                        <a href="#" class="about-va-link">VA plans, budget, finances, and performance</a><br>
+                        <a href="#" class="about-va-link">National cemetery history program</a><br>
+                        <a href="#" class="about-va-link">Veterans legacy program</a><br>
+                        <a href="#" class="about-va-link">Volunteer or donate</a><br>
+                      </div>
+                      <div class="col-1 p-0" style="background-color: #f1f1f1; width: 206px">
+                        <img src="afr-2022-cover.jpg" style="width: 206px"><p/>
+                        <div class="container ps-3 pe-3">
+                          <p><strong><a href="#" class="afr-link">Agency Financial Report</a> </strong><br><br>
+                            View the FY 2022 report that includes VA accomplishments with taxpayer dollars and the challenges that remain.</p>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Find a VA Location</a>
               </li>
             </ul>
           </div>
-          <div class="col">
+          <div class="col-2">
             <ul class="nav justify-content-end">
               <li class="nav-item">
                 <a class="nav-link" href="#">My VA</a>
