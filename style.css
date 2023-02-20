@@ -1,3 +1,27 @@
 #gov-header {
   font-size: 12px;
 }
+
+#paired-navbars {
+  background-color: #112e51;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #0071bb;
+}
+
+.nav-link {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+hr {
+  color: white;
+  opacity: 1;
+
+  margin-bottom: 8px;
+  margin-inline-start: 5%;
+  margin-inline-end: 5%;
+
+}
