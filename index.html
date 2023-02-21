@@ -70,18 +70,16 @@
             <ul class="nav nav-pills justify-content-end mt-2">
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><i class="fa-solid fa-magnifying-glass me-2"></i>Search</a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <div class="container inline">
-                      <div class="row">
-                        <div class="col">
-                          <input class="form-control-lg">
-                        </div>
-                        <div class="col">
-                          <button>search</button>
-                        </div>
+                <ul class="dropdown-menu" style="border-radius: 0">
+                  <li style="min-width: 280px; max-height: 55px">
+                    <form class="row g-3 ps-2">
+                      <div class="col-auto">
+                        <input type="text" class="form-control border border-dark" style="border-radius: 0">
                       </div>
-                    </div>
+                      <div class="col-auto">
+                        <button type="submit" class="btn btn-primary mb-3 rounded-end rounded-0" style="background-color: #0071bb"><i class="fa-solid fa-magnifying-glass"></i></button>
+                      </div>
+                    </form>
                   </li>
                 </ul>
               </li>
